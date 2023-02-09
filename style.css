@@ -1,0 +1,136 @@
+.container {
+  width: 1200px;
+  margin: auto;
+}
+p {
+  font-size: 18px;
+}
+svg {
+  width: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  font-weight: 500;
+}
+
+.header {
+  height: 800px;
+
+  background-image: url(/images/banner/banner3.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative !important;
+}
+
+.headerInfo {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 250px;
+  right: 100px;
+  width: 300px;
+  height: 100%;
+  text-align: right;
+}
+
+/* middle body css start*/
+.years {
+  display: flex;
+  margin-top: 100px;
+}
+
+.middleImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.middleImg img {
+  width: 400px;
+}
+.middleInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middleInfo h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+.listItem {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+}
+
+/* my plan start */
+
+.myPlan {
+  margin-top: 100px;
+}
+.myPlan h1 {
+  text-align: center;
+  font-size: 30px;
+}
+/* my plan end */
+
+.planWraper {
+  display: flex;
+  justify-content: space-around;
+}
+.planBox {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planBox img {
+  width: 100px;
+}
+
+.bannar {
+  margin-top: 100px;
+  background-image: url(/images/watch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+.bannar img {
+  height: 100%;
+}
+.bannarInfo {
+  color: white;
+  position: absolute;
+  left: 54px;
+  top: 25px;
+}
+
+/* footer */
+footer {
+  background-color: rgb(5, 5, 5);
+  color: white;
+}
+.footerWraper {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerWraper .box {
+  width: 50%;
+}
